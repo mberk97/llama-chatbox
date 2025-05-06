@@ -42,6 +42,19 @@ This project showcases the ability to:
 └── .gitignore
 ```
 
+### Model File (Not Included in Repository)
+
+>  Due to file size limitations on GitHub, the quantized model file `Llama-3-8B-Instruct.Q4_K_M.gguf` (~4.8 GB) is **not included** in this repository.
+
+To run the project locally:
+
+1. Download the appropriate GGUF version of the LLaMA 3.1 model from [Meta AI or Hugging Face](https://huggingface.co/TheBloke).
+2. Place the file inside the `models/` directory:
+   llama_chatbox\models
+
+
+> The code is configured to load this file automatically from that location.
+
 ---
 
 ##  API: `/chat` Endpoint
