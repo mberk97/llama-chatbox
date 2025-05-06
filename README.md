@@ -44,7 +44,7 @@ This project showcases the ability to:
 
 ---
 
-## 🔌 API: `/chat` Endpoint
+##  API: `/chat` Endpoint
 
 **Method**: `POST`  
 **URL**: `http://127.0.0.1:8000/chat`
@@ -75,12 +75,13 @@ This project showcases the ability to:
 | Swagger UI (FastAPI Docs) | `screenshots/swagger-ui.png`  |
 | Server Startup Console   | `screenshots/server-log.png`  |
 
-To include them visually in your README:
+
 
 ```markdown
-![Postman](./screenshots/postman-demo.png)
-![Swagger UI](./screenshots/swagger-ui.png)
-![Server Log](./screenshots/server-log.png)
+![Postman](./screenshots/postman_test.jpeg)
+![Swagger UI](./screenshots/swagger_ui.png)
+![Server Log](./screenshots/server_running.png)
+
 ```
 
 ---
