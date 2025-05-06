@@ -57,7 +57,7 @@ This project showcases the ability to:
 }
 ```
 
-### 📤 Sample Response (JSON)
+###  Sample Response (JSON)
 
 ```json
 {
