@@ -18,8 +18,6 @@ venv/
 # Model files (not tracked in repo)
 models/
 
-# Local test screenshots
-screenshots/
 
 # OS files
 .DS_Store
