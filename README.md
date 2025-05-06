@@ -4,7 +4,7 @@ This project demonstrates a lightweight chatbox service powered by the LLaMA 3.1
 
 ---
 
-## 📌 Assignment Purpose
+##  Assignment Purpose
 
 This project showcases the ability to:
 
@@ -14,7 +14,7 @@ This project showcases the ability to:
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 | Component       | Technology            |
 |----------------|------------------------|
@@ -24,7 +24,7 @@ This project showcases the ability to:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 .
@@ -49,7 +49,7 @@ This project showcases the ability to:
 **Method**: `POST`  
 **URL**: `http://127.0.0.1:8000/chat`
 
-### ✅ Request Body (JSON)
+###  Request Body (JSON)
 
 ```json
 {
@@ -67,7 +67,7 @@ This project showcases the ability to:
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 | Description              | File Path                    |
 |--------------------------|------------------------------|
@@ -85,11 +85,20 @@ To include them visually in your README:
 
 ---
 
-## 💡 Technical Notes
+## Technical Notes
 
-Although **FastAPI** was used for rapid prototyping, the architecture can be modularized for production-readiness.
+Although this prototype uses Pythons FastAPI for rapid deployment, a more scalable and decoupled
+architecture would involve a separation of concerns:
+### Backend-Oriented Architecture Vision
+In a real-world system:
+- The **LLM (Large Language Model)** remains in Python (for efficient inference and model handling)
+- The **API layer could be built with Java Spring Boot** to better reflect enterprise-level backend practices
+- The Java backend would **call the Python-based model as a service**, passing user messages and
+receiving responses
+- Communication could be handled via **HTTP, REST, or gRPC** protocols between the systems
 
-### 🔄 Scalable Architecture Plan
+
+###  Scalable Architecture Plan
 
 - **Inference Layer (Python)**: LLaMA 3.1 remains in Python for efficient model execution.
 - **API Gateway (Java Spring Boot)**: Ideal for enterprise applications with microservice support.
@@ -98,15 +107,16 @@ Although **FastAPI** was used for rapid prototyping, the architecture can be mod
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Use **WebSockets** for real-time message streaming
 - Add **React or Vue** frontend for a full-stack chat interface
+- **LLM parameter tuning** or multi-turn memory using session-based storage
 - Implement **multi-turn memory** or context handling with session-based storage
 - Add **Docker support** for containerization
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
 This proof-of-concept demonstrates basic integration of a local LLM using FastAPI. For future development, I aim to evolve this into a modular microservice-based architecture using Spring Boot (API) and Python (inference), enabling scalable, maintainable, and production-grade AI applications.
