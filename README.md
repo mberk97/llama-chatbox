@@ -90,12 +90,20 @@ To run the project locally:
 
 
 
-```markdown
-![Postman](./screenshots/postman_test.jpeg)
-![Swagger UI](./screenshots/swagger_ui.png)
-![Server Log](./screenshots/server_running.png)
+## Screenshots
 
-```
+### 1. Postman Test
+![Postman Test](screenshots/postman_test.jpeg)
+
+### 2. Server Running
+![Server Running](screenshots/server_running.png)
+
+### 3. Swagger UI
+![Swagger UI](screenshots/swagger_ui.png)
+
+
+
+
 
 ---
 
